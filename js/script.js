@@ -224,6 +224,8 @@
 
 getData();
 
+$($(".wrap")[$(".wrap").length-1]).css("display","none");
+$($(".wrap")[$(".wrap").length-2]).css("display","none");
 
 /////--------------------------------------------------------------------------
 ///// make one function with a single date object.. not need to have 3.
